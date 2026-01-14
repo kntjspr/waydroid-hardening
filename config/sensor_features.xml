@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Phase 6: Sensor Feature Declarations -->
+<!-- Place in: /vendor/etc/sysconfig/ or /system/etc/sysconfig/ -->
+<config>
+    <!-- Motion sensors -->
+    <feature name="android.hardware.sensor.accelerometer" />
+    <feature name="android.hardware.sensor.gyroscope" />
+    <feature name="android.hardware.sensor.compass" />
+    
+    <!-- Environmental sensors -->
+    <feature name="android.hardware.sensor.light" />
+    <feature name="android.hardware.sensor.proximity" />
+    <feature name="android.hardware.sensor.barometer" />
+    
+    <!-- Step detection -->
+    <feature name="android.hardware.sensor.stepcounter" />
+    <feature name="android.hardware.sensor.stepdetector" />
+    
+    <!-- High-fidelity sensors (Pixel 5) -->
+    <feature name="android.hardware.sensor.hifi_sensors" />
+    
+    <!-- Fingerprint -->
+    <feature name="android.hardware.fingerprint" />
+    
+    <!-- Face unlock -->
+    <feature name="android.hardware.biometrics.face" />
+</config>

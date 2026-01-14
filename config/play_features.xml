@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Phase 2: Google Play Feature Masking -->
+<!-- Place in: /vendor/etc/sysconfig/ or /system/etc/sysconfig/ -->
+<config>
+    <!-- Google Play Experience features -->
+    <feature name="com.google.android.play.feature.HPE_EXPERIENCE" />
+    <feature name="com.google.android.feature.GOOGLE_BUILD" />
+    <feature name="com.google.android.feature.GOOGLE_EXPERIENCE" />
+    
+    <!-- Pixel-specific features -->
+    <feature name="com.google.android.feature.PIXEL_EXPERIENCE" />
+    <feature name="com.google.android.feature.PIXEL_2017_EXPERIENCE" />
+    <feature name="com.google.android.feature.PIXEL_2018_EXPERIENCE" />
+    <feature name="com.google.android.feature.PIXEL_2019_EXPERIENCE" />
+    <feature name="com.google.android.feature.PIXEL_2020_EXPERIENCE" />
+    
+    <!-- Google Assistant -->
+    <feature name="com.google.android.feature.GOOGLE_FI_BUNDLED" />
+    
+    <!-- ARCore support -->
+    <feature name="com.google.ar.core" />
+</config>

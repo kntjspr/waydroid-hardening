@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Phase 6: Bluetooth Feature Declarations -->
+<!-- Place in: /vendor/etc/sysconfig/ or /system/etc/sysconfig/ -->
+<config>
+    <!-- Core Bluetooth -->
+    <feature name="android.hardware.bluetooth" />
+    <feature name="android.hardware.bluetooth_le" />
+    
+    <!-- Bluetooth profiles -->
+    <feature name="android.software.midi" />
+    
+    <!-- A2DP and audio -->
+    <feature name="android.hardware.audio.low_latency" />
+    <feature name="android.hardware.audio.pro" />
+</config>
